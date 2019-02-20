@@ -7,17 +7,15 @@
 //
 
 import UIKit
+import RulerView
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        let ruler = RulerView(frame: CGRect(x: 100, y: 200, width: 200, height: 30))
+        view.addSubview(ruler)
     }
 
 }

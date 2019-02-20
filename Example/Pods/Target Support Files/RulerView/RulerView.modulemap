@@ -1,0 +1,6 @@
+framework module RulerView {
+  umbrella header "RulerView-umbrella.h"
+
+  export *
+  module * { export * }
+}

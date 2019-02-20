@@ -1,0 +1,16 @@
+PODS:
+  - RulerView (1.0.0)
+
+DEPENDENCIES:
+  - RulerView (from `../`)
+
+EXTERNAL SOURCES:
+  RulerView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RulerView: 8408e03dbff57737a8182fe5e2be21b62272da70
+
+PODFILE CHECKSUM: d02c0e906dbb2a28d1cf1369ad41c8eac46b9116
+
+COCOAPODS: 1.5.3

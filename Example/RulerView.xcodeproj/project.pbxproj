@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		11C115EF884A8939CEC22474 /* Pods-RulerView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RulerView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RulerView_Tests/Pods-RulerView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		26B6A189BC490862BB701C43 /* RulerView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RulerView.podspec; path = ../RulerView.podspec; sourceTree = "<group>"; };
+		26B6A189BC490862BB701C43 /* RulerView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RulerView.podspec; path = ../RulerView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		413B629A52629E7F1DC94B71 /* Pods-RulerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RulerView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RulerView_Example/Pods-RulerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5320AA8413DA833085577409 /* Pods_RulerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RulerView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* RulerView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RulerView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,9 +43,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		A19EFB6C8D05A600F5CAE362 /* Pods-RulerView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RulerView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RulerView_Tests/Pods-RulerView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A9DB81DB7512C4CA53F32E40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A9DB81DB7512C4CA53F32E40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C84F91913AEB7550EE1F8323 /* Pods_RulerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RulerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA42F592233BF01FC45EB912 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CA42F592233BF01FC45EB912 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DAFD9F967E6196296407B204 /* Pods-RulerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RulerView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RulerView_Example/Pods-RulerView_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -212,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 9AP4GA8W53;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 9AP4GA8W53;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -469,6 +471,7 @@
 			baseConfigurationReference = 413B629A52629E7F1DC94B71 /* Pods-RulerView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9AP4GA8W53;
 				INFOPLIST_FILE = RulerView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -484,6 +487,7 @@
 			baseConfigurationReference = DAFD9F967E6196296407B204 /* Pods-RulerView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9AP4GA8W53;
 				INFOPLIST_FILE = RulerView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -498,6 +502,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 11C115EF884A8939CEC22474 /* Pods-RulerView_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 9AP4GA8W53;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -520,6 +525,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A19EFB6C8D05A600F5CAE362 /* Pods-RulerView_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 9AP4GA8W53;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
