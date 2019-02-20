@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RulerView_Example' do
+  pod 'RulerView', :path => '../'
+
+  target 'RulerView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
